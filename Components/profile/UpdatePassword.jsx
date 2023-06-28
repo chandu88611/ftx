@@ -134,7 +134,6 @@ function UpdatePassword() {
   };
   return (
     <div>
-      {" "}
       <div className="p-8">
         <p className="text-xl mb-2 font-semibold">Change Password</p>
         <div className="p-6 shadow  w-full sm:w-4/5 md:w-1/2 lg:w-2/5 xl:w-1/4 ml-2">

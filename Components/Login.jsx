@@ -46,16 +46,9 @@ function SignInPage() {
 
   const { isValid, dirtyFields, errors } = formState;
 
-  useEffect(() => {
-    setValue("email", "", {
-      shouldDirty: true,
-      shouldValidate: true,
-    });
-    setValue("password", "", {
-      shouldDirty: true,
-      shouldValidate: true,
-    });
-  }, [setValue]);
+
+   
+   
 
   useEffect(() => {
     console.log(users);

@@ -42,7 +42,7 @@ const Header = ({ setIsOpen, isOpen }) => {
             </p>
           </div>
           <div className="avatar">
-            <UserMenu />
+            <UserMenu /> <p></p>
           </div>
         </div>
       </div>
