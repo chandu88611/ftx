@@ -89,7 +89,6 @@ const AddAddress = () => {
   });
   const handlePincodeChange = (e) => {
     const { value } = e.target;
-    // Only update the formik state if the entered value is a number
     if (/^\d*$/.test(value)) {
       formik.handleChange(e);
     }
